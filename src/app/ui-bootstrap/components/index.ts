@@ -4,8 +4,8 @@ import Badge from './badge.component';
 import ProgressBar from './progress.component';
 
 export const BOOTSTRAP_COMPONENTS: any = [
-	Styles,
-	Button,
-	Badge,
-	ProgressBar
+  Styles,
+  Button,
+  Badge,
+  ProgressBar
 ];

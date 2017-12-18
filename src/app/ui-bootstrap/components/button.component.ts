@@ -1,24 +1,24 @@
-import { Component, Input, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
-import { ButtonTypes } from '../../common/Types';
+import {ButtonTypes} from '../../common/Types';
 
 const buttonTypes = [
-	{
-		type: ButtonTypes.PRIMARY,
-		className: 'btn btn-primary'
-	},
-	{
-		type: ButtonTypes.SECONDARY,
-		className: 'btn btn-secondary'
-	},
-	{
-		type: ButtonTypes.SUCCESS,
-		className: 'btn btn-success'
-	},
-	{
-		type: ButtonTypes.WARNING,
-		className: 'btn btn-warning'
-	},
+  {
+    type: ButtonTypes.PRIMARY,
+    className: 'btn btn-primary'
+  },
+  {
+    type: ButtonTypes.SECONDARY,
+    className: 'btn btn-secondary'
+  },
+  {
+    type: ButtonTypes.SUCCESS,
+    className: 'btn btn-success'
+  },
+  {
+    type: ButtonTypes.WARNING,
+    className: 'btn btn-warning'
+  },
   {
     type: ButtonTypes.DANGER,
     className: 'btn btn-danger'

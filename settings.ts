@@ -1,10 +1,10 @@
-import { BOOTSTRAP_COMPONENTS } from './src/app/ui-bootstrap/components/index';
-import { FOUNDATION_COMPONENTS } from './src/app/ui-foundation/components/index';
+import {BOOTSTRAP_COMPONENTS} from './src/app/ui-bootstrap/components';
+import {FOUNDATION_COMPONENTS} from './src/app/ui-foundation/components';
 
 const BOOTSTRAP = 'Bootstrap';
 const FOUNDATION = 'Foundation';
 
-const selectedStylesProvider = BOOTSTRAP;
+const selectedStylesProvider = FOUNDATION;
 
 const stylesProviders = [
   {
