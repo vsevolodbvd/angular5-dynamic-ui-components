@@ -1,7 +1,7 @@
 {
-  "name": "angular5-webpack-template",
+  "name": "angular5-dynamic-ui-components",
   "version": "1.0.0",
-  "description": "A webpack template for Angular 5",
+  "description": "Dynamic replacement of UI components with Angular 2+",
   "engines": {
     "node": ">= 6.11.1",
     "npm": ">= 3.10.3",
@@ -9,7 +9,6 @@
   },
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
-    "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
   },
   "license": "MIT",
@@ -29,7 +28,6 @@
     "zone.js": "^0.8.18"
   },
   "devDependencies": {
-    "@types/jasmine": "2.8.2",
     "@types/node": "^8.5.1",
     "angular2-template-loader": "^0.6.2",
     "awesome-typescript-loader": "^3.4.1",
@@ -38,13 +36,6 @@
     "file-loader": "^1.1.6",
     "html-loader": "^0.5.1",
     "html-webpack-plugin": "^2.30.1",
-    "jasmine-core": "^2.8.0",
-    "karma": "^1.7.1",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-jasmine": "^1.1.1",
-    "karma-sourcemap-loader": "^0.3.7",
-    "karma-webpack": "^2.0.9",
-    "motion-ui": "^1.2.3",
     "node-sass": "^4.7.2",
     "null-loader": "^0.1.1",
     "raw-loader": "^0.5.1",

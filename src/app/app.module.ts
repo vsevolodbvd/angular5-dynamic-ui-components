@@ -2,15 +2,15 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
-import settings from '../../settings';
+import {StylesModule} from './styles.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ...settings.uiComponents
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    StylesModule
   ],
   bootstrap: [AppComponent]
 })

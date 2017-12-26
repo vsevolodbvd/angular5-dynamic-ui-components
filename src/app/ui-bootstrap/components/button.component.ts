@@ -33,7 +33,7 @@ const buttonTypes = [
     </button>
   `
 })
-export default class Button implements OnInit {
+export class Button implements OnInit {
   @Input() public type: ButtonTypes;
   className: string;
 

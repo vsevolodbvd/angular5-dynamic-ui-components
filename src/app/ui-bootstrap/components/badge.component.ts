@@ -33,7 +33,7 @@ const badgeTypes = [
 		</span>
   `
 })
-export default class Badge implements OnInit {
+export class Badge implements OnInit {
   @Input() public type: BadgeTypes;
   className: string;
 

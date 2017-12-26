@@ -8,4 +8,4 @@ import {Component, ViewEncapsulation} from '@angular/core';
     <ng-content></ng-content>
   `
 })
-export default class Styles {}
+export class Styles {}

@@ -32,7 +32,7 @@ const badgeTypes = [
     </div>
   `
 })
-export default class ProgressBar implements OnInit {
+export class ProgressBar implements OnInit {
   @Input() public type: ProgressBarTypes;
   @Input() public value: number;
   percent: string;
